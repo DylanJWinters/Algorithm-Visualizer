@@ -1,0 +1,42 @@
+#container {
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: papayawhip;
+
+}
+
+.bar {
+    width: 100px;
+    background-color: black;
+    margin: 0 2px;
+}
+
+
+
+button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+button:active {
+    background-color: gray;
+}
+
+
+
